@@ -1,0 +1,131 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Project Proposal first draft by Randy Leon"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Introduction"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Obesity in the USA today.\n",
+    "\n",
+    "- It is a prevalent problem in the United States today.\n",
+    "- obesity is a contributing factor to FOUR of the top ten leading causes of death in the United States as of 2017 per the CDC. \n",
+    "- Why is obesity such a problem in such a first-world country like the US? Can some data exploration give some insight as to who in the US is more susceptible to becoming obese? (by race, socioeconomic status, location[state/region], etc.)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<img src=\"https://news.flinders.edu.au/wp-content/uploads/2018/03/obesity-stock-photo.jpg\"/>"
+      ],
+      "text/plain": [
+       "<IPython.core.display.Image object>"
+      ]
+     },
+     "execution_count": 10,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "from IPython.display import Image\n",
+    "from IPython.core.display import HTML \n",
+    "Image(url= \"https://news.flinders.edu.au/wp-content/uploads/2018/03/obesity-stock-photo.jpg\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Research Questions"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "There is no one hard-fast reason why the U.S has become so fat; the epidemic has resulted from a series of lifestyle changes to the country's population.\n",
+    "\n",
+    "A look into what has caused the country to be fat can lead to strategies that can be developed to combat the upward trend of obesity. By looking at data over time, we can find begin to find out how we got ourselves here in the first place. One thing is for sure before I go into detail, America was a skinnier nation: obesity has not always plagued such a great percentage of the country's population.\n",
+    "\n",
+    "I, myself, as the analytics professional doing this assignment, struggle with being overweight myself. Is there a way to revert back to the once skinnier times of America. Are these problems unique to our country, or the world getting fatter with us as well. Have we replaced the epidemic of world hunger with antithetical problem? What factors can we look at that also contribute to being obese in this country?"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "There is plenty of data on this topic, it is in part why I chose this topic in the first place. \n",
+    "\n",
+    "Despite that, here is where I anticipate having issues; working with datasets from different sources. Academic journals, and sources such as the World Health Organization, the National Center for Health Statistics, and the Center of Disease Control will be web scraped to follow the necessary guidelines of the project. What can be extracted from available CSVs will be imported directly into my notebook if possible and relevant."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Approach"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "I will be using an SQL database(s) to store it all effectively. I will also be able to merge my databases/tables and work with it on a macro level more effectively if I use SQL. \n",
+    "\n",
+    "Statistics will tend to revolve around how obesity occurs with respect to four key dimensions throughout the basis of my project. As I dig further into studying this topic, more dimensions, or any kinds of combinations thereof might be used for more precise analysis: \n",
+    "- age (bins as 5-12, 13-19, 20-35, 36+ to denote childhood, teenage/adolescence, young adulthood, later adulthood. Distribution visualizations could prove useful here to show trends)\n",
+    "- geographic location (I have not decided yet whether I will choose a rural/urban, region-to-region, or state-to-state, or any combination of all three not limited to the filters I have previously mentioned. This decision will probably be at the mercy of the data available. This dimension can also feature interesting visualizations with the possible \"geo-mapping\" of the obesity \"hotspots\" in America.\n",
+    "- socioeconomic status (I shall use income ranges that may or may not coincide with pre-determined buckets, such as tax bracket.)\n",
+    "-race (this will be divided into official buckets by x governing body of public health)\n",
+    "\n",
+    "The idea is not to compare one group to another, but rather to see what groups have a tendency to have more obese people.\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.3"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
